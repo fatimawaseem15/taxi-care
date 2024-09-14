@@ -5,6 +5,10 @@
     --secondary-color: #43a2ca;
 }
 
+*,
+html,
 body {
     font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: all 0.15s ease;
 }

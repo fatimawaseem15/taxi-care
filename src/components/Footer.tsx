@@ -1,54 +1,43 @@
 "use client"
-import { Box, Typography, Link as MuiLink } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'; // LinkedIn Icon from Material UI
 import Image from 'next/image';
 
 const Footer = () => {
     return (
         <footer className="bg-[#001748] py-20">
-            <Box
-                sx={{
-                    display: 'flex',
-                    flexDirection: { xs: 'column', md: 'row' },
-                    justifyContent: 'space-between',
-                    alignItems: { xs: 'center', md: 'flex-start' },
-                    maxWidth: '1200px',
-                    margin: '0 auto',
-                    px: 3,
-                }}
-            >
+            <div className="flex flex-col md:flex-row justify-between items-center md:items-start max-w-[1200px] mx-auto px-3">
                 {/* Left: Logo and Address */}
-                <Box className="text-white mb-5 md:mb-0">
+                <div className="text-white mb-5 md:mb-0">
                     <Image src="https://www.texicare.com/wp-content/uploads/elementor/thumbs/Texicare-Logo_No-Tagline_sm-qk5wycnxhac69o475erhvo0dmkqp0eh6697pqvq7a8.png" alt="Texicare logo" className="w-56 mb-3" width={100} height={100} />
-                    <Typography variant="body2" className='mt-14'>
+                    <p className="mt-14 text-sm">
                         2500 Bee Cave Rd, Bldg. 1, Suite 250, Austin, TX 78746-5869
-                    </Typography>
-                </Box>
+                    </p>
+                </div>
 
                 {/* Center: Links */}
-                <Box className="text-white mb-5 md:mb-0 flex space-x-10 font-bold">
-                    <Box className="mr-20">
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>About Us</MuiLink></Typography>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Plans</MuiLink></Typography>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Agents</MuiLink></Typography>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Employers</MuiLink></Typography>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Members</MuiLink></Typography>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Providers</MuiLink></Typography>
-                    </Box>
-                    <Box>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Careers</MuiLink></Typography>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Newsroom</MuiLink></Typography>
-                        <Typography variant="body2"><MuiLink href="#" className='no-underline text-white font-bold'>Privacy Policy</MuiLink></Typography>
-                    </Box>
-                </Box>
+                <div className="text-white mb-5 md:mb-0 flex space-x-10 font-bold text-sm">
+                    <div className="mr-20">
+                        <p><a href="#" className='no-underline text-white font-bold'>About Us</a></p>
+                        <p><a href="#" className='no-underline text-white font-bold'>Plans</a></p>
+                        <p><a href="#" className='no-underline text-white font-bold'>Agents</a></p>
+                        <p><a href="#" className='no-underline text-white font-bold'>Employers</a></p>
+                        <p><a href="#" className='no-underline text-white font-bold'>Members</a></p>
+                        <p><a href="#" className='no-underline text-white font-bold'>Providers</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#" className='no-underline text-white font-bold'>Careers</a></p>
+                        <p><a href="#" className='no-underline text-white font-bold'>Newsroom</a></p>
+                        <p><a href="#" className='no-underline text-white font-bold'>Privacy Policy</a></p>
+                    </div>
+                </div>
 
                 {/* Right: LinkedIn Icon */}
-                <Box className="text-white">
-                    <MuiLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <div className="text-white">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                         <LinkedInIcon sx={{ fontSize: 40, color: '#0077b5' }} />
-                    </MuiLink>
-                </Box>
-            </Box>
+                    </a>
+                </div>
+            </div>
         </footer>
     );
 };
