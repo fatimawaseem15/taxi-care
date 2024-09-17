@@ -20,13 +20,13 @@ const FeaturesSection = () => {
                     {/* Right side text content */}
                     <div className="w-full md:w-1/3 px-4">
                         <div className="text-left">
-                            <h4 className="text-2xl font-bold mb-6 md:px-10">
+                            <h4 className="text-2xl mb-6 md:px-10 text-[#333333] leading-7">
                                 Our innovative approach keeps your business going strong.
                             </h4>
                             <div className="mt-4">
-                                <button className="bg-orange-500 md:ml-10 text-white font-bold py-3 px-6 rounded-full mr-4">
+                                <a href='#texas-business' className="bg-primary md:ml-10 text-white font-bold py-3 px-6 rounded-full mr-4 hover:bg-white border-2 hover:text-primary border-primary my-3 text-[15px] leading-[15px] transition-all font-avenir-bold uppercase">
                                     See Our Plans
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -40,12 +40,12 @@ const FeaturesSection = () => {
                                         <div className="mb-4">
                                             <Image src={feature.icon} alt="feature-icon" className="mx-auto w-24" width={100} height={100} />
                                         </div>
-                                        <h6 className="text-lg font-bold text-orange-500 mb-2">
+                                        <h6 className="text-xl font-bold text-orange-500 mb-2">
                                             {feature.title}
                                         </h6>
-                                        <p className="text-gray-700">
+                                        {/* <p className="text-gray-700">
                                             {feature.description}
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                             ))}

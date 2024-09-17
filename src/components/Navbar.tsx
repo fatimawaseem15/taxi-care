@@ -35,7 +35,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* Nav Links */}
-                <nav className="hidden md:flex space-x-6 text-gray-700 text-base font-bold">
+                <nav className="hidden md:flex flex-wrap md:justify-end space-x-6 text-gray-700 text-base font-bold">
                     <a href="#" className="hover:text-[#ed5929] transition-all duration-200 text-nowrap">
                         Find A Doctor
                     </a>

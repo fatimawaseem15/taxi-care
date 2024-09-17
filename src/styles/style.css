@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('/fonts/avenir_ff/AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir-bold';
+    src: url('/fonts/avenir_ff/AvenirLTStd-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --primary-color: #ed5929;
     --secondary-color: #43a2ca;
@@ -8,7 +22,13 @@
 *,
 html,
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Avenir", sans-serif;
     font-weight: 500;
     transition: all 0.15s ease;
+}
+
+button {
+    text-transform: uppercase !important;
+    font-size: 15px !important;
+    line-height: 15px !important;
 }

@@ -5,7 +5,8 @@ const InfoSection = () => {
     return (
         <section className="bg-[#f15a24] mt-10 text-white py-10 px-5 sm:px-10 flex flex-col md:flex-row justify-center items-center">
             <button
-                className="mb-5 md:mb-0 rounded-full text-white bg-[#f15a24] font-bold border border-white hover:bg-white hover:text-[#f15a24] px-10 py-2"
+                // className="mb-5 md:mb-0 rounded-full text-white bg-[#f15a24] font-bold border border-white hover:bg-white hover:text-[#f15a24] px-10 py-3 font-avenir-bold"
+                className="mb-5 md:mb-0 rounded-full text-primary bg-white font-bold border-2 border-white hover:bg-primary hover:text-white px-10 py-3 font-avenir-bold ml-10"
             >
                 LEARN MORE ABOUT <br /> LEVEL-FUNDED COVERAGE
             </button>

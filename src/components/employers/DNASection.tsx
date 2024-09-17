@@ -1,17 +1,20 @@
 "use client"
 import React from 'react';
+import imagePoster from '@/app/assets/Texicare-CEO-Video-Poster.png';
 
 const DNASection: React.FC = () => {
     return (
-        <div className="py-12 px-4 md:px-12 lg:px-24">
+        <div className="relative py-12 px-4 md:px-12 lg:px-24">
+            <div className="absolute inset-0 bg-no-repeat bg-right-top bg-contain" style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/ABOUT-20-Starburst_Starburst.png')`, backgroundSize: '20rem auto' }}></div>
+
             <div className="text-left">
                 {/* Title */}
-                <h4 className="text-[#0087bc] font-bold text-4xl mb-4">
+                <h4 className="text-[#43a2ca] md:leading-[48px] font-bold md:text-[48px] text-4xl mb-4">
                     Trust is in our DNA.
                 </h4>
 
                 {/* Description */}
-                <p className="text-gray-800 leading-relaxed text-lg md:text-xl md:w-3/5 font-medium">
+                <p className="text-[#333333] md:text-[20px] md:leading-[30px] text-lg md:text-xl md:w-3/5 font-medium">
                     Texicare is a health affiliate of Texas Mutual, who has been the
                     leading workers’ compensation provider in Texas for over 30 years.
                     Texas Mutual has protected and cared for more than 76,000 businesses
@@ -21,7 +24,7 @@ const DNASection: React.FC = () => {
                 </p>
 
                 {/* Subheading */}
-                <h6 className="text-[#002d62] font-bold mt-8">
+                <h6 className="text-[#001748] md:text-[23px] md:leading-[23px] text-lg font-bold mt-8">
                     Hear from our President and CEO Meredith Duncan
                 </h6>
 
@@ -30,7 +33,7 @@ const DNASection: React.FC = () => {
                     <div className="relative w-[80%] md:w-[70%] lg:w-[60%]">
                         <video
                             src="https://www.texicare.com/wp-content/uploads/2024/02/Interview-with-Texicares-CEO_1.mp4"
-                            className="w-full h-full rounded-lg"
+                            poster={imagePoster.src}
                             controls
                             preload='metadata'
                             controlsList='nodownload'
