@@ -32,7 +32,7 @@ const FeaturesSection = () => {
                     </div>
 
                     {/* Left side with feature boxes */}
-                    <div className="w-full md:w-2/3 px-4">
+                    <div className="w-full md:w-2/3 px-4 mt-8">
                         <div className="flex flex-wrap -mx-2">
                             {features.map((feature, index) => (
                                 <div className="w-full sm:w-1/3 px-2 mb-4" key={index}>
