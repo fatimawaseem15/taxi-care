@@ -40,32 +40,32 @@ const CarePlansSection: React.FC = () => {
 
                     {/* Plan Information */}
                     <div className="flex-1">
-                        <p className="text-primary text-[22px] leading-[22px] font-bold">
+                        <p className="text-primary text-[22px] leading-[22px] font-bold mb-5 font-avenir-bold">
                             Who Benefits Most:
                         </p>
-                        <ul className="mb-4 space-y-1 text-black">
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">People who want access to affordable care</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">People who want to avoid high out-of-pocket costs</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">People with young families</li>
+                        <ul className=" mb-4 space-y-1 text-black ml-10">
+                            <li className="list-disc text-[21px] leading-[31.5px]">People who want access to affordable care</li>
+                            <li className="list-disc text-[21px] leading-[31.5px]">People who want to avoid high out-of-pocket costs</li>
+                            <li className="list-disc text-[21px] leading-[31.5px]">People with young families</li>
                         </ul>
 
-                        <p className="text-primary text-[22px] leading-[22px] font-bold">
+                        <p className="text-primary text-[22px] leading-[22px] font-bold mb-5 font-avenir-bold">
                             Coverage includes:
                         </p>
-                        <ul className="space-y-1 text-black">
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">$0 for the first four visits to each:</li>
+                        <ul className="space-y-1 text-black ml-10">
+                            <li className="list-disc text-[21px] leading-[31.5px]">$0 for the first four visits to each:</li>
                             <ul className="pl-4 list-circle" style={{ listStyleType: "circle" }}>
-                                <li className="list-inside text-[21px] ml-8">Primary Care</li>
-                                <li className="list-inside text-[21px] ml-8">Specialists</li>
-                                <li className="list-inside text-[21px] ml-8">Mental Health</li>
-                                <li className="list-inside text-[21px] ml-8">Retail Clinic</li>
-                                <li className="list-inside text-[21px] ml-8">Urgent Care</li>
-                                <li className="list-inside text-[21px] ml-8">Habilitative/Rehabilitative Therapies</li>
+                                <li className=" text-[21px] ml-8">Primary Care</li>
+                                <li className=" text-[21px] ml-8">Specialists</li>
+                                <li className=" text-[21px] ml-8">Mental Health</li>
+                                <li className=" text-[21px] ml-8">Retail Clinic</li>
+                                <li className=" text-[21px] ml-8">Urgent Care</li>
+                                <li className=" text-[21px] ml-8">Habilitative/Rehabilitative Therapies</li>
                             </ul>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">$5 for common prescriptions</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">$0 common maintenance labs</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">$5 for common prescriptions</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">$0 common maintenance labs</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
                         </ul>
                     </div>
                 </div>
@@ -102,21 +102,21 @@ const CarePlansSection: React.FC = () => {
 
                     {/* Plan Information */}
                     <div className="flex-1">
-                        <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold">
+                        <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Who Benefits Most:
                         </p>
-                        <ul className="mb-4 space-y-1 text-black">
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">People who want to know costs prior to service</li>
+                        <ul className="mb-4 space-y-1 text-black ml-10">
+                            <li className="list-disc  text-[21px] leading-[31.5px]">People who want to know costs prior to service</li>
                         </ul>
 
-                        <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold">
+                        <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Coverage includes:
                         </p>
-                        <ul className="space-y-1 text-black">
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">Clear, upfront costs</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">Low copays for primary care and mental health</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
+                        <ul className="space-y-1 text-black ml-10">
+                            <li className="list-disc  text-[21px] leading-[31.5px]">Clear, upfront costs</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">Low copays for primary care and mental health</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
                         </ul>
                     </div>
                 </div>
@@ -152,22 +152,22 @@ const CarePlansSection: React.FC = () => {
 
                     {/* Plan Information */}
                     <div className="flex-1">
-                        <p className="text-[#001748] text-[22px] leading-[22px] text-xl font-bold">
+                        <p className="text-[#001748] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Who Benefits Most:
                         </p>
-                        <ul className="mb-4 space-y-1 text-black">
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">People who want to shop for the highest quality care at the lowest price</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">People who want lower monthly premiums</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">People who want a tax-advantaged Health Savings Account</li>
+                        <ul className="mb-4 space-y-1 text-black ml-10">
+                            <li className="list-disc  text-[21px] leading-[31.5px]">People who want to shop for the highest quality care at the lowest price</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">People who want lower monthly premiums</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">People who want a tax-advantaged Health Savings Account</li>
                         </ul>
 
-                        <p className="text-[#001748] text-[22px] leading-[22px] text-xl font-bold">
+                        <p className="text-[#001748] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Coverage includes:
                         </p>
-                        <ul className="space-y-1 text-black">
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">Deductibles and out-of-pocket maximums that comply with IRS guidelines</li>
-                            <li className="list-disc list-inside text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
+                        <ul className="space-y-1 text-black ml-10">
+                            <li className="list-disc  text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">Deductibles and out-of-pocket maximums that comply with IRS guidelines</li>
+                            <li className="list-disc  text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
                         </ul>
                     </div>
                 </div>
