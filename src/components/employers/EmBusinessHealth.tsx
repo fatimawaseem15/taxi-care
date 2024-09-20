@@ -28,8 +28,8 @@ const EmBusinessHealth = () => {
                         { title: "Fewer Sick Days" },
                         { title: "Easier Recruitment" },
                     ].map((point, index) => (
-                        <div key={index} className="w-1/2 md:w-1/4 text-center flex justify-center mb-4">
-                            <h6 className="font-bold w-40 text-center text-[23px] leading-[34.5px] text-[#3b3b3b]">
+                        <div key={index} className="w-full md:w-1/4 text-center flex justify-center mb-4">
+                            <h6 className="font-bold w-28 text-center text-[23px] leading-[34.5px] text-[#3b3b3b]">
                                 {point.title}
                             </h6>
                             {/* <p className="text-gray-700">

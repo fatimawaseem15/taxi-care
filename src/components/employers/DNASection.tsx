@@ -7,7 +7,7 @@ const DNASection: React.FC = () => {
 
     return (
         <div className="relative py-12 px-4 md:px-12 lg:px-24">
-            <div className="absolute inset-0 bg-no-repeat bg-right-top bg-contain" style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/ABOUT-20-Starburst_Starburst.png')`, backgroundSize: '20rem auto' }}></div>
+            <div className="absolute inset-0 bg-no-repeat bg-right-top bg-contain sm:block hidden" style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/ABOUT-20-Starburst_Starburst.png')`, backgroundSize: '20rem auto' }}></div>
 
             <div className="text-left">
                 {/* Title */}
