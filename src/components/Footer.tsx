@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#001748] py-20">
+        <footer className="bg-[#001748] py-16">
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start max-w-[1200px] mx-auto px-3">
                 {/* Left: Logo and Address */}
                 <div className="text-white mb-5 md:mb-0 flex flex-col md:items-start items-center justify-start">
