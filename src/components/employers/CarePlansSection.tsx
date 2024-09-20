@@ -43,7 +43,7 @@ const CarePlansSection: React.FC = () => {
                         <p className="text-primary text-[22px] leading-[22px] font-bold mb-5 font-avenir-bold">
                             Who Benefits Most:
                         </p>
-                        <ul className=" mb-4 space-y-1 text-black ml-10">
+                        <ul className=" mb-4 space-y-1 text-black sm:ml-10 ml-6">
                             <li className="list-disc text-[21px] leading-[31.5px]">People who want access to affordable care</li>
                             <li className="list-disc text-[21px] leading-[31.5px]">People who want to avoid high out-of-pocket costs</li>
                             <li className="list-disc text-[21px] leading-[31.5px]">People with young families</li>
@@ -52,15 +52,15 @@ const CarePlansSection: React.FC = () => {
                         <p className="text-primary text-[22px] leading-[22px] font-bold mb-5 font-avenir-bold">
                             Coverage includes:
                         </p>
-                        <ul className="space-y-1 text-black ml-10">
+                        <ul className="space-y-1 text-black sm:ml-10 ml-6">
                             <li className="list-disc text-[21px] leading-[31.5px]">$0 for the first four visits to each:</li>
-                            <ul className="pl-4 list-circle" style={{ listStyleType: "circle" }}>
-                                <li className=" text-[21px] ml-8">Primary Care</li>
-                                <li className=" text-[21px] ml-8">Specialists</li>
-                                <li className=" text-[21px] ml-8">Mental Health</li>
-                                <li className=" text-[21px] ml-8">Retail Clinic</li>
-                                <li className=" text-[21px] ml-8">Urgent Care</li>
-                                <li className=" text-[21px] ml-8">Habilitative/Rehabilitative Therapies</li>
+                            <ul className="pl-4 list-circle sm:ml-8 ml-1" style={{ listStyleType: "circle" }}>
+                                <li className=" text-[21px]">Primary Care</li>
+                                <li className=" text-[21px]">Specialists</li>
+                                <li className=" text-[21px]">Mental Health</li>
+                                <li className=" text-[21px]">Retail Clinic</li>
+                                <li className=" text-[21px]">Urgent Care</li>
+                                <li className=" text-[21px]">Habilitative/Rehabilitative Therapies</li>
                             </ul>
                             <li className="list-disc  text-[21px] leading-[31.5px]">$5 for common prescriptions</li>
                             <li className="list-disc  text-[21px] leading-[31.5px]">$0 common maintenance labs</li>
@@ -105,14 +105,14 @@ const CarePlansSection: React.FC = () => {
                         <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Who Benefits Most:
                         </p>
-                        <ul className="mb-4 space-y-1 text-black ml-10">
+                        <ul className="mb-4 space-y-1 text-black sm:ml-10 ml-6">
                             <li className="list-disc  text-[21px] leading-[31.5px]">People who want to know costs prior to service</li>
                         </ul>
 
                         <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Coverage includes:
                         </p>
-                        <ul className="space-y-1 text-black ml-10">
+                        <ul className="space-y-1 text-black sm:ml-10 ml-6">
                             <li className="list-disc  text-[21px] leading-[31.5px]">Clear, upfront costs</li>
                             <li className="list-disc  text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
                             <li className="list-disc  text-[21px] leading-[31.5px]">Low copays for primary care and mental health</li>
@@ -155,7 +155,7 @@ const CarePlansSection: React.FC = () => {
                         <p className="text-[#001748] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Who Benefits Most:
                         </p>
-                        <ul className="mb-4 space-y-1 text-black ml-10">
+                        <ul className="mb-4 space-y-1 text-black sm:ml-10 ml-6">
                             <li className="list-disc  text-[21px] leading-[31.5px]">People who want to shop for the highest quality care at the lowest price</li>
                             <li className="list-disc  text-[21px] leading-[31.5px]">People who want lower monthly premiums</li>
                             <li className="list-disc  text-[21px] leading-[31.5px]">People who want a tax-advantaged Health Savings Account</li>
@@ -164,7 +164,7 @@ const CarePlansSection: React.FC = () => {
                         <p className="text-[#001748] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
                             Coverage includes:
                         </p>
-                        <ul className="space-y-1 text-black ml-10">
+                        <ul className="space-y-1 text-black sm:ml-10 ml-6">
                             <li className="list-disc  text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
                             <li className="list-disc  text-[21px] leading-[31.5px]">Deductibles and out-of-pocket maximums that comply with IRS guidelines</li>
                             <li className="list-disc  text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
