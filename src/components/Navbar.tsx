@@ -85,13 +85,13 @@ const Navbar = () => {
                     <div className='flex flex-row gap-40'>
                         {/* Sign In with Dropdown */}
                         <div className="block lg:hidden relative border-b-[3px] border-white hover:border-b-primary py-2">
-                            <button
+                            <span
                                 onClick={toggleManuDropdown}
-                                className="text-[#5b5859] text-nowrap font-avenir-bold font-[900]  text-base focus:outline-none "
+                                className="text-[#5b5859] text-nowrap font-avenir-bold font-[900]  text-base focus:outline-none"
                             >
-                                Manu
+                                Menu
                                 <span className="text-[#5b5859]"><ExpandMoreIcon fontSize='small' /></span> {/* Dropdown icon */}
-                            </button>
+                            </span>
 
                             {/* Dropdown Menu */}
                             {mobileManuDropdown && (
@@ -156,7 +156,7 @@ const Navbar = () => {
 
                             {/* Dropdown Menu */}
                             {isDropdownOpen && (
-                                <div className="absolute right-[-25px] mt-2 w-32 font-bold bg-white py-2 z-50">
+                                <div className="absolute right-[-24px] mt-2 w-32 font-bold bg-white py-2 z-50">
                                     <a
                                         href="#"
                                         className="block px-4 py-2 text-[#3b3b3b] hover:bg-primary hover:text-white text-sm font-avenir-bold font-[900]"

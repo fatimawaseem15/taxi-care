@@ -15,8 +15,8 @@ const TexasBusinessSection: React.FC = () => {
             <div className="absolute inset-0 bg-black opacity-10"></div>
 
             {/* Content */}
-            <div className="relative z-10 text-center text-white px-4 ">
-                <h2 className="md:text-[75px] text-5xl md:leading-[75px] text-left">
+            <div className="relative z-10 text-center text-white md:px-0 px-4 ">
+                <h2 className="md:text-[77px] text-5xl md:leading-[75px] text-left">
                     We know Texas. <br /> We know Texas small business.
                 </h2>
                 <p className="md:mt-14 mt-10 md:mb-20 md:text-[22px] md:leading-[33px] text-xl text-left ">
