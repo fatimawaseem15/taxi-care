@@ -95,7 +95,7 @@ const Navbar = () => {
 
                             {/* Dropdown Menu */}
                             {mobileManuDropdown && (
-                                <nav className="absolute right-[-25px] mt-2 w-32 font-bold bg-white py-2 z-50">
+                                <nav className="absolute right-[-50px] mt-2 w-32 font-bold bg-white py-2 z-50">
                                     <a
                                         href="#"
                                         className="block px-4 py-2 text-[#3b3b3b] hover:bg-primary hover:text-white text-sm font-avenir-bold font-[900]"
