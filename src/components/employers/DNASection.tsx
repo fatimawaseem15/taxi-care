@@ -1,8 +1,10 @@
 "use client"
-import React from 'react';
+import React, { useState } from 'react';
 import imagePoster from '@/app/assets/Texicare-CEO-Video-Poster.png';
 
 const DNASection: React.FC = () => {
+    const [showControls, setShowControls] = useState(false);
+
     return (
         <div className="relative py-12 px-4 md:px-12 lg:px-24">
             <div className="absolute inset-0 bg-no-repeat bg-right-top bg-contain" style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/ABOUT-20-Starburst_Starburst.png')`, backgroundSize: '20rem auto' }}></div>
@@ -30,13 +32,15 @@ const DNASection: React.FC = () => {
 
                 {/* Video Section */}
                 <div className="mt-6 flex justify-center">
-                    <div className="relative w-[80%] md:w-[70%] lg:w-[60%]">
+                    <div className="relative w-[80%] md:w-[70%] lg:w-[65%]">
                         <video
                             src="https://www.texicare.com/wp-content/uploads/2024/02/Interview-with-Texicares-CEO_1.mp4"
                             poster={imagePoster.src}
-                            controls
+                            controls={showControls}
                             preload='metadata'
                             controlsList='nodownload'
+                            onClick={() => setShowControls(true)}
+                            className='cursor-pointer'
                         ></video>
                     </div>
                 </div>

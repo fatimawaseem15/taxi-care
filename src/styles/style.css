@@ -25,6 +25,7 @@ body {
     font-family: "Avenir", sans-serif;
     font-weight: 500;
     transition: all 0.15s ease;
+    scroll-behavior: smooth;
 }
 
 button {
