@@ -9,7 +9,7 @@ const Footer = () => {
                 {/* Left: Logo and Address */}
                 <div className="text-white mb-5 md:mb-0">
                     <Image src="https://www.texicare.com/wp-content/uploads/elementor/thumbs/Texicare-Logo_No-Tagline_sm-qk5wycnxhac69o475erhvo0dmkqp0eh6697pqvq7a8.png" alt="Texicare logo" className="w-56 mb-3" width={100} height={100} />
-                    <p className="mt-14 text-[13px] leading-5">
+                    <p className="md:mt-20 mt-12 text-[13px] leading-5">
                         2500 Bee Cave Rd, Bldg. 1, Suite 250, Austin, TX 78746-5869
                     </p>
                 </div>
@@ -32,9 +32,9 @@ const Footer = () => {
                 </div>
 
                 {/* Right: LinkedIn Icon */}
-                <div className="text-white">
+                <div className="text-white bg-[#0077b5] rounded-full p-[10px] self-end">
                     <a href="https://www.linkedin.com/company/texicare/" target="_blank" rel="noopener noreferrer">
-                        <LinkedInIcon sx={{ fontSize: 40, color: '#0077b5' }} />
+                        <LinkedInIcon sx={{ fontSize: 30, color: 'white',  }} />
                     </a>
                 </div>
             </div>

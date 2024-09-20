@@ -5,7 +5,7 @@ const EmpolyerHero = () => {
     <div className="relative w-full h-full bg-cover bg-center transition-all" style={{ backgroundImage: 'url("https://www.texicare.com/wp-content/uploads/2024/02/Warehouse-Birds-Eye-View.jpg")' }}>
       <div className="container mx-auto lg:px-28 md:px-20">
         <div className="text-center text-white px-4 lg:px-10 py-20 md:py-40">
-          <h1 className="text-4xl md:text-7xl ">
+          <h1 className="text-4xl md:text-[75px] ">
             Your business is only as healthy as the people in it.
           </h1>
           <button

@@ -40,7 +40,7 @@ const FeaturesSection = () => {
                                         <div className="mb-4">
                                             <Image src={feature.icon} alt="feature-icon" className="mx-auto w-24" width={100} height={100} />
                                         </div>
-                                        <h6 className="text-xl font-bold text-orange-500 mb-2">
+                                        <h6 className="text-xl font-bold text-primary mb-2">
                                             {feature.title}
                                         </h6>
                                         {/* <p className="text-gray-700">

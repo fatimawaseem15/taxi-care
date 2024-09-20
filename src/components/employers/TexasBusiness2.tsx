@@ -4,7 +4,7 @@ import React from "react";
 const TexasBusinessSection: React.FC = () => {
     return (
         <section
-            className="relative w-full h-[600px] bg-cover bg-center flex items-center justify-center"
+            className="relative w-full h-[606px] bg-cover bg-center flex items-end justify-center"
             id="texas-business"
             style={{
                 backgroundImage:
@@ -12,14 +12,14 @@ const TexasBusinessSection: React.FC = () => {
             }}
         >
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black opacity-20"></div>
+            <div className="absolute inset-0 bg-black opacity-10"></div>
 
             {/* Content */}
-            <div className="relative z-10 text-center text-white px-4">
+            <div className="relative z-10 text-center text-white px-4 ">
                 <h2 className="md:text-[75px] text-4xl md:leading-[75px] text-left">
                     We know Texas. <br /> We know Texas small business.
                 </h2>
-                <p className="mt-4 md:text-[22px] md:leading-[33px] text-md md:text-lg text-left">
+                <p className="md:mt-14 mt-10 md:mb-20 mb-16 md:text-[22px] md:leading-[33px] text-xl text-left ">
                     Texicare was created by seasoned healthcare <br /> professionals with a deep
                     commitment to our state. <br />
                     We&apos;re a new company with big ambitions for Texas <br /> small business.
