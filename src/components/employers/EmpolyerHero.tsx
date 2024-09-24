@@ -10,7 +10,7 @@ const EmpolyerHero = () => {
               Your business is only as healthy as the people in it.
             </h1>
             <button
-              className="bg-primary hover:bg-white border-2 hover:text-primary border-primary px-6 py-3 my-3 font-bold rounded-full text-white text-xl font-avenir-bold"
+              className="bg-primary hovr4er:bg-white border-2 hover:text-primary border-primary px-6 py-3 my-3 font-bold rounded-full text-white text-xl font-avenir-bold"
               style={{ fontSize: '20px !important', lineHeight: '20px !important' }}
             >
               Find an Agent
@@ -23,7 +23,7 @@ const EmpolyerHero = () => {
       </div>
 
 
-      <div className="text-center text-white px-10 py-20 md:py-40 md:hidden block">
+      <div className="text-center text-white px-10 mt-20 mb-15 md:py-40 md:hidden block">
         <h1 className="text-5xl md:text-[75px] md:leading-[75px] font-[600] text-[#001748] text-left font-avenir-bold">
           Your business is only as healthy as the people in it.
         </h1>

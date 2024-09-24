@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Footer = () => {
     return (
         <footer className="bg-[#001748] py-16">
-            <div className="flex flex-col md:flex-row justify-between items-center md:items-start max-w-[1200px] mx-auto px-3">
+            <div className="flex flex-col md:flex-row justify-between items-center md:items-start max-w-[1200px] mx-auto md:px-10 px-3">
                 {/* Left: Logo and Address */}
                 <div className="text-white mb-5 md:mb-0 flex flex-col md:items-start items-center justify-start">
                     <Image src="https://www.texicare.com/wp-content/uploads/elementor/thumbs/Texicare-Logo_No-Tagline_sm-qk5wycnxhac69o475erhvo0dmkqp0eh6697pqvq7a8.png" alt="Texicare logo" className="md:w-56 w-[20rem] mb-3" width={100} height={100} />
