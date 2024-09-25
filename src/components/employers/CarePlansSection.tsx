@@ -85,71 +85,60 @@ const CarePlansSection: React.FC = () => {
         </div>
       </div>
 
-      {/* 2nd block */}
-      <div className="container mb-12">
+  {/* 2nd block */}
+<div className="container mb-12"></div>
 
+<div className="relative w-full p-6 md:p-24 space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-6 justify-center">
+  {/* Background Image */}
+  <div
+    className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain"
+    style={{
+      backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/PLANS-10-Starburst_Starburst-Black.png')`,
+      backgroundSize: '12rem auto',
+    }}
+  ></div>
+
+  {/* Content Container */}
+  <div className="relative flex flex-col items-start justify-between w-full md:flex-row max-w-6xl mx-auto gap-10">
+    {/* Circle Image and Text */}
+    <div className="flex-shrink-0 text-center md:text-left w-full md:w-1/3 flex flex-col justify-center items-center md:items-start">
+      <img
+        src="https://www.texicare.com/wp-content/uploads/2024/02/Thrive-Care.png"
+        alt="Thrive Care logo"
+        className="mx-auto md:mx-0 rounded-full w-24 md:w-48"
+      />
+      <h6 className="my-4 text-[#43a2ca] w-full md:w-2/3 text-center md:text-left text-[16px] md:text-[22px] leading-[22px] font-bold">
+        Transparent costs with no surprises
+      </h6>
+      <div className="w-full text-center md:text-left">
+        <p className="text-[#000000] text-[13px] leading-[19.5px]">
+          Para obtener detalles del plan
+        </p>
       </div>
-      <div className="relative w-full p-24  space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-6  justify-center">
-        <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain" style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/PLANS-10-Starburst_Starburst-Black.png')`, backgroundSize: '12rem auto' }}></div>
-        <div className="relative flex flex-col items-start justify-between w-full md:flex-row max-w-6xl mx-auto gap-10">
-          {/* Circle Image */}
-          <div className="flex-shrink-0 text-center md:text-left md:w-1/3 flex flex-col justify-center items-center">
-            <img
-              src="https://www.texicare.com/wp-content/uploads/2024/02/Thrive-Care.png"
-              alt="Thrive Care logo"
-              className="mx-auto md:mx-0 rounded-full w-48"
-            />
-            <h6 className="my-4 px-12 text-[#42a3cb] w-2/3 text-center text-[22px] leading-[22px] font-bold">
-              Transparent costs with no surprises
-            </h6>
-            <div className="w-full text-center">
-               {/* Commented out Button */}
-              {/* <Button
-                variant="contained"
-                sx={{
-                  fontSize: "15px",
-                  fontWeight: "bold",
-                  color: "white",
-                  backgroundColor: "#009e4f",
-                  borderRadius: "999px",
-                  "&:hover": {
-                    backgroundColor: "white",
-                    color: "#009e4f",
-                    border: "2px solid #009e4f",
-                  },
-                  px: 6,
-                  py: 3,
-                }}
-              >
-                Plan Details
-              </Button> */}
-              <p className="text-[#000000] text-[13px] leading-[19.5px]">
-                Para obtener detalles del plan
-              </p>
-            </div>
-          </div>
+    </div>
 
-          {/* Plan Information */}
-          <div className="flex-1">
-            <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
-              Who Benefits Most:
-            </p>
-            <ul className="mb-4 space-y-1 text-black sm:ml-10 ml-6">
-              <li className="list-disc text-[21px] leading-[31.5px]">People who want to know costs prior to service</li>
-            </ul>
+    {/* Plan Information */}
+    <div className="flex-1">
+      <p className="text-[#42a3cb] text-[18px] md:text-[22px] leading-[22px] font-bold mb-5 font-avenir-bold">
+        Who Benefits Most:
+      </p>
+      <ul className="mb-4 space-y-1 text-black ml-6 sm:ml-10 text-[18px] md:text-[21px] leading-[27px] md:leading-[31.5px]">
+        <li className="list-disc">People who want to know costs prior to service</li>
+      </ul>
 
-            <p className="text-[#42a3cb] text-[22px] leading-[22px] text-xl font-bold mb-5 font-avenir-bold">
-              Coverage includes:
-            </p>
-            <ul className="space-y-1 text-black sm:ml-10 ml-6">
-              <li className="list-disc text-[21px] leading-[31.5px]">Clear, upfront costs</li>
-              <li className="list-disc text-[21px] leading-[31.5px]">$0 virtual care through CirrusMD</li>
-              <li className="list-disc text-[21px] leading-[31.5px]">Low copays for primary care and mental health</li>
-              <li className="list-disc text-[21px] leading-[31.5px]">Interest-free, flexible payment options through TempoPay</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <p className="text-[#42a3cb] text-[18px] md:text-[22px] leading-[22px] font-bold mb-5 font-avenir-bold">
+        Coverage includes:
+      </p>
+      <ul className="space-y-1 text-black ml-6 sm:ml-10 text-[18px] md:text-[21px] leading-[27px] md:leading-[31.5px]">
+        <li className="list-disc">Clear, upfront costs</li>
+        <li className="list-disc">$0 virtual care through CirrusMD</li>
+        <li className="list-disc">Low copays for primary care and mental health</li>
+        <li className="list-disc">Interest-free, flexible payment options through TempoPay</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 
       {/* 3rd block */}
       <div className="relative w-full p-6 space-y-6 bg-white rounded-lg md:flex-row md:space-y-0">

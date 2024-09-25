@@ -24,9 +24,9 @@ const Navbar = () => {
     return (
         <>
            {/* Topbar */}
-           <div id="topbar" className="topbar flex justify-between items-center p-4 bg-green-600">
-               <p className="text-white text-xs md:text-sm lg:text-base">Visit Texicare in English</p>
-               <button className="text-white bg-transparent border border-white py-1 px-4 rounded-md text-xs md:text-sm lg:text-base">
+           <div id="topbar" className="topbar flex justify-between items-center p-4 bg-orange-600">
+               <p className="text-white text-xs  md:text-sm lg:text-base">Visit Texicare in English</p>
+               <button className="text-white rounded-2xl bg-transparent border border-white py-2 px-8  text-xs md:text-sm lg:text-base">
                    Visit Now
                </button>
            </div>
