@@ -8,11 +8,11 @@ const CarePlansSection: React.FC = () => {
 
             {/* 1st block */}
             <div className="relative w-full p-6 space-y-6 bg-white rounded-lg md:flex-row md:space-y-0">
-                <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain" 
+                <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain"
                      style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/PLANS-10-Starburst_Starburst-Black.png')`, backgroundSize: '12rem auto' }}>
                 </div>
 
-                <div className="relative flex flex-col items-start justify-between md:flex-row max-w-6xl mx-auto gap-10">
+                <div className="relative flex flex-col items-center md:items-start justify-between md:flex-row max-w-6xl mx-auto gap-10">
                     {/* Circle Image */}
                     <div className="flex-shrink-0 text-center md:text-left md:w-1/3 flex flex-col justify-center items-center">
                         <Image
@@ -23,16 +23,13 @@ const CarePlansSection: React.FC = () => {
                             height={192}
                             quality={100}
                         />
-                        <h6 className="my-4 px-10 text-[#eb4824] w-2/3 text-center text-[22px] leading-[22px] font-bold">
+                        <h6 className="my-4 px-10 text-[#eb4824] w-2/3 text-center md:text-left text-[22px] leading-[22px] font-bold">
                             Affordable coverage for basic care
                         </h6>
                         <div className="w-full text-center">
-                            {/* <button className="text-[15px] leading-[15px] font-avenir-bold border-2 border-primary text-white font-bold bg-primary hover:bg-white hover:text-primary px-6 py-3 rounded-full">
-                                Plan Details
-                            </button> */}
-                                <p className="text-[#000000] text-[13px] leading-[19.5px]">
-                Para obtener detalles del plan
-              </p>
+                            <p className="text-[#000000] text-[13px] leading-[19.5px]">
+                                Para obtener detalles del plan
+                            </p>
                         </div>
                     </div>
 
@@ -70,12 +67,12 @@ const CarePlansSection: React.FC = () => {
             </div>
 
             {/* 2nd block */}
-            <div className="relative w-full py-6 md:py-24 space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-0">
-                <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain" 
+            <div className="relative w-full py-12 md:py-24 space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-0">
+            <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain"
                      style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/PLANS-10-Starburst_Starburst-Black.png')`, backgroundSize: '12rem auto' }}>
                 </div>
 
-                <div className="relative flex flex-col items-start justify-between w-full md:flex-row max-w-6xl mx-auto gap-10">
+                <div className="relative flex flex-col items-center md:items-start justify-between w-full md:flex-row max-w-6xl mx-auto gap-10">
                     {/* Circle Image */}
                     <div className="flex-shrink-0 text-center md:text-left md:w-1/3 flex flex-col justify-center items-center">
                         <img
@@ -83,16 +80,13 @@ const CarePlansSection: React.FC = () => {
                             alt="Thrive Care logo"
                             className="mx-auto md:mx-0 rounded-full w-48"
                         />
-                        <h6 className="my-4 text-[#43a2ca] w-2/3 text-center text-[22px] leading-[22px] font-bold">
+                        <h6 className="my-4 text-[#43a2ca] w-2/3 text-center md:text-left text-[22px] leading-[22px] font-bold">
                             Transparent costs with no surprises
                         </h6>
                         <div className="w-full text-center">
-                            {/* <button className="text-[15px] leading-[15px] font-avenir-bold border-2 border-[#42a3cb] text-white font-bold bg-[#42a3cb] hover:bg-white hover:text-[#42a3cb] px-6 py-3 rounded-full">
-                                Plan Details
-                            </button> */}
-                                <p className="text-[#000000] text-[13px] leading-[19.5px]">
-                Para obtener detalles del plan
-              </p>
+                            <p className="text-[#000000] text-[13px] leading-[19.5px]">
+                                Para obtener detalles del plan
+                            </p>
                         </div>
                     </div>
 
@@ -120,10 +114,10 @@ const CarePlansSection: React.FC = () => {
 
             {/* 3rd block */}
             <div className="relative w-full p-6 space-y-6 bg-white rounded-lg md:flex-row md:space-y-0">
-                <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain" 
+                <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain"
                      style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/PLANS-10-Starburst_Starburst-Black.png')`, backgroundSize: '12rem auto' }}>
                 </div>
-                <div className="relative flex flex-col items-start justify-between w-full md:flex-row max-w-6xl mx-auto gap-10">
+                <div className="relative flex flex-col items-center md:items-start justify-between w-full md:flex-row max-w-6xl mx-auto gap-10">
                     {/* Circle Image */}
                     <div className="flex-shrink-0 text-center md:text-left md:w-1/3 flex flex-col justify-center items-center">
                         <img
@@ -131,16 +125,13 @@ const CarePlansSection: React.FC = () => {
                             alt="Savings Care logo"
                             className="mx-auto md:mx-0 rounded-full w-48"
                         />
-                        <h6 className="my-4 text-[#001648] w-2/3 text-center text-[22px] leading-[22px] font-bold">
+                        <h6 className="my-4 text-[#001648] w-2/3 text-center md:text-left text-[22px] leading-[22px] font-bold">
                             Allows tax-free contributions into an HSA
                         </h6>
                         <div className="w-full text-center">
-                            {/* <button className="text-[15px] leading-[15px] border-2 font-avenir-bold border-[#001748] text-white font-bold bg-[#001748] hover:bg-white hover:text-[#001748] px-6 py-3 rounded-full">
-                                Plan Details
-                            </button> */}
-                                <p className="text-[#000000] text-[13px] leading-[19.5px]">
-                Para obtener detalles del plan
-              </p>
+                            <p className="text-[#000000] text-[13px] leading-[19.5px]">
+                                Para obtener detalles del plan
+                            </p>
                         </div>
                     </div>
 
