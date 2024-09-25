@@ -19,7 +19,7 @@ const EmployerHero = () => {
             >
               Find an Agent
             </button>
-            <p className="text-[22px] leading-8 mb-6">
+            <p className="text-[22px] leading-10 mb-6">
               Sick days and loss of productivity can affect your bottom line. Get in touch with an agent to find healthcare coverage that helps you take care of your employees and your business.
             </p>
           </div>

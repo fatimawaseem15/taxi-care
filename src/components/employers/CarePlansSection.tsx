@@ -86,7 +86,10 @@ const CarePlansSection: React.FC = () => {
       </div>
 
       {/* 2nd block */}
-      <div className="relative w-full p-6 space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-0">
+      <div className="container mb-12">
+
+      </div>
+      <div className="relative w-full p-24  space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-6  justify-center">
         <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain" style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/PLANS-10-Starburst_Starburst-Black.png')`, backgroundSize: '12rem auto' }}></div>
         <div className="relative flex flex-col items-start justify-between w-full md:flex-row max-w-6xl mx-auto gap-10">
           {/* Circle Image */}

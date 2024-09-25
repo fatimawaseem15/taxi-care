@@ -23,16 +23,16 @@ const Navbar = () => {
 
     return (
         <>
-            {/* Topbar */}
-            <div id="topbar" className="topbar overflow-x-hidden">
-                <p className="text-white">Visit Texicare in English</p>
-                <button className="text-white bg-transparent border border-white py-1 px-4 rounded-md">
-                    Visit Now
-                </button>
-            </div>
+           {/* Topbar */}
+           <div id="topbar" className="topbar flex justify-between items-center p-4 bg-green-600">
+               <p className="text-white text-xs md:text-sm lg:text-base">Visit Texicare in English</p>
+               <button className="text-white bg-transparent border border-white py-1 px-4 rounded-md text-xs md:text-sm lg:text-base">
+                   Visit Now
+               </button>
+           </div>
 
             {/* Navbar */}
-            <header className="bg-white shadow-md mt-[51px] overflow-x-hiddenhidden">
+            <header className="bg-white shadow-md mt-[51px] overflow-x-hidden">
                 <div className="px-6 flex md:justify-between justify-center lg:flex-row flex-col items-center">
                     {/* Logo */}
                     <Link href='/' className="flex items-center cursor-pointer">
@@ -202,13 +202,18 @@ const Navbar = () => {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    padding: 0 100px;
+                    padding: 0 20px; /* Adjusted padding for smaller screens */
                     background: #f0572f;
                     position: fixed;
                     top: 0;
                     width: 100%;
                     z-index: 99999;
                     box-shadow: 0px 0px 10px 0px #00000026;
+                }
+                @media (min-width: 640px) {
+                    .topbar {
+                        padding: 0 100px; /* Restore original padding on larger screens */
+                    }
                 }
             `}</style>
         </>
