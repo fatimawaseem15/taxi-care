@@ -1,21 +1,58 @@
 "use client";
 import React from 'react';
+import { Box, Button, Typography } from '@mui/material';
 
 const InfoSection = () => {
-    return (
-        <section className="bg-[#f15a24] mt-10 text-white py-10 px-5 sm:px-10 flex flex-col md:flex-row justify-center items-center">
-            <button
-                // className="mb-5 md:mb-0 rounded-full text-white bg-[#f15a24] font-bold border border-white hover:bg-white hover:text-[#f15a24] px-10 py-3 font-avenir-bold"
-                className="mb-5 md:mb-0 rounded-full text-primary bg-white font-bold border-2 border-white hover:bg-primary hover:text-white px-10 py-3 font-avenir-bold ml-10"
-            >
-                LEARN MORE ABOUT <br /> LEVEL-FUNDED COVERAGE
-            </button>
+  return (
+    <Box
+      component="section"
+      sx={{
+        backgroundColor: '#f15a24',
+        marginTop: '2.5rem',
+        color: 'white',
+        py: 10,
+        px: { xs: 5, sm: 10 },
+        display: 'flex',
+        flexDirection: { xs: 'column', md: 'row' },
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <Button
+        variant="outlined"
+        sx={{
+          mb: { xs: 5, md: 0 },
+          borderRadius: '50px',
+          color: 'primary.main',
+          backgroundColor: 'white',
+          fontWeight: 'bold',
+          border: '2px solid white',
+          px: 10,
+          py: 3,
+          fontFamily: 'Avenir, sans-serif',
+          ml: { md: 10 },
+          '&:hover': {
+            backgroundColor: 'primary.main',
+            color: 'white',
+          },
+        }}
+      >
+        LEARN MORE ABOUT <br /> LEVEL-FUNDED COVERAGE
+      </Button>
 
-            <p className="text-white max-w-lg text-lg md:ml-20">
-                With level-funded plans, employers get fixed monthly payments, visibility into ongoing claims and a refund if there’s a surplus. All of the plans above are level-funded plans.
-            </p>
-        </section>
-    );
+      <Typography
+        sx={{
+          color: 'white',
+          maxWidth: '32rem',
+          fontSize: '1.25rem',
+          ml: { md: 20 },
+          textAlign: { xs: 'center', md: 'left' },
+        }}
+      >
+        With level-funded plans, employers get fixed monthly payments, visibility into ongoing claims, and a refund if there’s a surplus. All of the plans above are level-funded plans.
+      </Typography>
+    </Box>
+  );
 };
 
 export default InfoSection;

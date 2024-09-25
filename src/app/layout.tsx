@@ -11,6 +11,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -24,17 +25,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-       <Head>
+      <Head>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased duration-200 transition-all`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased duration-200 transition-all`}>
         <Navbar />
         {children}
         <Footer />

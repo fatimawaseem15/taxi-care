@@ -1,44 +1,59 @@
-"use client"
+"use client";
 import React from 'react';
+import { Box, Typography, Container, Grid } from '@mui/material';
 
 const EmBusinessHealth = () => {
     return (
         <section>
-            <div className="relative bg-cover bg-center md:py-32 py-24" style={{ backgroundImage: `url('https://www.texicare.com/wp-content/uploads/2024/02/Shop-with-Open-Sign.jpg')` }}>
+            <Box
+                sx={{
+                    position: 'relative',
+                    backgroundImage: `url('https://www.texicare.com/wp-content/uploads/2024/02/Shop-with-Open-Sign.jpg')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    py: { xs: 6, md: 12 }, // Adjusted padding for smaller screens
+                }}
+            >
                 {/* Overlay to add dark effect */}
-                {/* <div className="absolute inset-0 bg-gray-600 opacity-50"></div> */}
+                {/* <Box sx={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(96, 125, 139, 0.5)' }} /> */}
 
                 {/* Content */}
-                <div className="relative z-10 max-w-screen-lg mx-auto px-3">
-                    <div className="flex justify-start">
-                        <div className="w-full md:w-6/12">
-                            <h3 className="text-white font-bold md:text-[53px] md:leading-[53px] text-4xl text-left mb-6 font-avenir-bold">
+                <Box sx={{ position: 'relative', zIndex: 10, maxWidth: 'lg', mx: 'auto', px: { xs: 2, md: 3 } }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
+                        <Box sx={{ width: { xs: '100%', md: '50%' } }}>
+                            <Typography variant="h3" sx={{ color: 'white', fontWeight: 'bold', fontSize: { xs: '2.5rem', md: '3.5rem' }, mb: 6 }}>
                                 Good health is just good business.
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                            </Typography>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+
             {/* Key points under the main text */}
-            <div className="container mx-auto px-10">
-                <div className="flex flex-wrap justify-center mt-8">
+            <Container sx={{ px: { xs: 2, md: 3 }, mt: 2 }}>
+                <Grid container spacing={4} justifyContent="center">
                     {[
                         { title: "Higher Job Satisfaction" },
                         { title: "Higher Employee Retention" },
                         { title: "Fewer Sick Days" },
                         { title: "Easier Recruitment" },
                     ].map((point, index) => (
-                        <div key={index} className="w-full md:w-1/4 text-center flex justify-center mb-4">
-                            <h6 className="font-bold w-28 text-center text-[23px] leading-[34.5px] text-[#3b3b3b]">
+                        <Grid item xs={6} md={3} key={index}>
+                            <Typography 
+                                variant="h6" 
+                                sx={{ 
+                                    fontWeight: 'bold', 
+                                    textAlign: 'center', 
+                                    fontSize: '1.5rem', 
+                                    color: '#3b3b3b' 
+                                }}
+                            >
                                 {point.title}
-                            </h6>
-                            {/* <p className="text-gray-700">
-                                {point.subtitle}
-                            </p> */}
-                        </div>
+                            </Typography>
+                        </Grid>
                     ))}
-                </div>
-            </div>
+                </Grid>
+            </Container>
         </section>
     );
 };

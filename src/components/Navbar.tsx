@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         <header className="bg-white shadow-md">
-            <div className=" px-6 flex md:justify-between justify-center lg:flex-row flex-col items-center">
+            <div className="px-6 flex md:justify-between justify-center lg:flex-row flex-col items-center">
                 {/* Logo */}
                 <Link href='/' className="flex items-center cursor-pointer">
                     <Image
@@ -57,9 +57,9 @@ const Navbar = () => {
                             <a
                                 href="#"
                                 onClick={toggleMembersDropdown}
-                                className=" transition-all duration-200 text-nowrap font-avenir-bold font-[900] cursor-pointer"
+                                className="transition-all duration-200 text-nowrap font-avenir-bold font-[900] cursor-pointer"
                             >
-                                Members <span ><ExpandMoreIcon fontSize='small' /></span> {/* Dropdown icon */}
+                                Members <ExpandMoreIcon fontSize='small' />
                             </a>
                             {isMembersDropdownOpen && (
                                 <div className="absolute mt-4 w-40 font-bold bg-white shadow-lg py-2 rounded-sm z-50">
@@ -78,19 +78,17 @@ const Navbar = () => {
                         <a href="#" className="border-b-[3px] border-white hover:border-b-primary py-2 transition-all duration-200 text-nowrap font-avenir-bold font-[900] ">
                             About Us
                         </a>
-
                     </nav>
-
 
                     <div className='flex flex-row gap-40'>
                         {/* Sign In with Dropdown */}
                         <div className="block lg:hidden relative border-b-[3px] border-white hover:border-b-primary py-2">
                             <span
                                 onClick={toggleManuDropdown}
-                                className="text-[#5b5859] text-nowrap font-avenir-bold font-[900]  text-base focus:outline-none"
+                                className="text-[#5b5859] text-nowrap font-avenir-bold font-[900] text-base focus:outline-none"
                             >
                                 Menu
-                                <span className="text-[#5b5859]"><ExpandMoreIcon fontSize='small' /></span> {/* Dropdown icon */}
+                                <ExpandMoreIcon fontSize='small' />
                             </span>
 
                             {/* Dropdown Menu */}
@@ -126,7 +124,6 @@ const Navbar = () => {
                                     >
                                         Members
                                     </a>
-
                                     <a
                                         href="#"
                                         className="block px-4 py-2 text-[#3b3b3b] hover:bg-primary hover:text-white text-sm font-avenir-bold font-[900]"
@@ -139,19 +136,18 @@ const Navbar = () => {
                                     >
                                         About Us
                                     </a>
-
                                 </nav>
                             )}
                         </div>
 
-
+                        {/* Sign In Dropdown */}
                         <div className="relative border-b-[3px] border-white hover:border-b-primary py-2">
                             <button
                                 onClick={toggleDropdown}
-                                className="text-primary text-nowrap font-avenir-bold font-[900]  text-base focus:outline-none "
+                                className="text-primary text-nowrap font-avenir-bold font-[900] text-base focus:outline-none"
                             >
                                 SIGN IN
-                                <span className="text-primary"><ExpandMoreIcon fontSize='small' /></span> {/* Dropdown icon */}
+                                <ExpandMoreIcon fontSize='small' />
                             </button>
 
                             {/* Dropdown Menu */}
@@ -185,13 +181,9 @@ const Navbar = () => {
                             )}
                         </div>
                     </div>
-
-
                 </div>
             </div>
-
-
-        </header >
+        </header>
     );
 };
 

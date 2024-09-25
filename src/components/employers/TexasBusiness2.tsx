@@ -1,30 +1,44 @@
 "use client";
 import React from "react";
+import { Box, Typography, Container } from "@mui/material";
 
 const TexasBusinessSection: React.FC = () => {
     return (
         <section
-            className="relative w-full h-[606px] bg-cover bg-center flex md:items-end items-center justify-center"
-            id="texas-business"
             style={{
-                backgroundImage:
-                    "url('https://www.texicare.com/wp-content/uploads/2024/02/Moving-Product-with-a-Forklift.jpg')",
+                position: "relative",
+                width: "100%",
+                height: "606px",
+                backgroundImage: "url('https://www.texicare.com/wp-content/uploads/2024/02/Moving-Product-with-a-Forklift.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                display: "flex",
+                alignItems: "flex-end",
+                justifyContent: "center",
             }}
+            id="texas-business"
         >
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black opacity-10"></div>
+            <Box
+                sx={{
+                    position: "absolute",
+                    inset: 0,
+                    bgcolor: "black",
+                    opacity: 0.1,
+                }}
+            />
 
             {/* Content */}
-            <div className="relative z-10 text-center text-white md:px-0 px-4 ">
-                <h2 className="md:text-[77px] text-5xl md:leading-[75px] text-left">
+            <Container maxWidth="lg" sx={{ position: "relative", zIndex: 10, textAlign: "center", px: { xs: 2, md: 0 } }}>
+                <Typography variant="h2" sx={{ fontSize: { xs: "2rem", md: "77px" }, lineHeight: { xs: "1.2", md: "75px" }, color: "white", textAlign: "left" }}>
                     We know Texas. <br /> We know Texas small business.
-                </h2>
-                <p className="md:mt-14 mt-10 md:mb-20 md:text-[22px] md:leading-[33px] text-xl text-left ">
+                </Typography>
+                <Typography sx={{ mt: { xs: 4, md: 14 }, mb: { xs: 4, md: 20 }, fontSize: { xs: "1.25rem", md: "22px" }, lineHeight: { xs: "1.5", md: "33px" }, color: "white", textAlign: "left" }}>
                     Texicare was created by seasoned healthcare <br /> professionals with a deep
                     commitment to our state. <br />
                     We&apos;re a new company with big ambitions for Texas <br /> small business.
-                </p>
-            </div>
+                </Typography>
+            </Container>
         </section>
     );
 };
