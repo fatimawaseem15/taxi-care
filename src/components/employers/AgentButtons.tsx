@@ -7,7 +7,7 @@ const InfoSection = () => {
     <Box
       component="section"
       sx={{
-        backgroundColor: '#f15a24',
+        backgroundColor: '#f15a25',
         marginTop: '2.5rem',
         color: 'white',
         py: 10,
@@ -23,7 +23,7 @@ const InfoSection = () => {
         sx={{
           mb: { xs: 5, md: 0 },
           borderRadius: '50px',
-          color: 'primary.main',
+          color: '#f15a25',
           backgroundColor: 'white',
           fontWeight: 'bold',
           border: '2px solid white',
@@ -32,7 +32,7 @@ const InfoSection = () => {
           fontFamily: 'Avenir, sans-serif',
           ml: { md: 10 },
           '&:hover': {
-            backgroundColor: 'primary.main',
+            backgroundColor: '#f15a25',
             color: 'white',
           },
         }}

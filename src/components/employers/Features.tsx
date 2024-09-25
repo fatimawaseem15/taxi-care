@@ -20,9 +20,10 @@ const FeaturesSection = () => {
                     {/* Right side text content */}
                     <div className="col-span-1 lg:px-16 px-7">
                         <div className="text-left">
-                            <h4 className="text-3xl my-6 text-[#333333] leading-7">
-                                Our innovative approach keeps your business going strong.
-                            </h4>
+                        <h4 className="text-3xl my-6 text-[#333333] leading-[30px]">
+                        Our innovative approach keeps your business going strong.
+                        </h4>
+
                             <div className="mt-4 flex md:justify-start justify-center items-center">
                                 <a href='#texas-business' className="bg-primary text-white font-bold py-3 px-6 rounded-full hover:bg-white border-2 hover:text-primary border-primary my-3 text-[15px] leading-[15px] transition-all font-avenir-bold uppercase">
                                     See Our Plans

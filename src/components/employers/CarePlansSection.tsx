@@ -26,25 +26,29 @@ const CarePlansSection: React.FC = () => {
               Affordable coverage for basic care
             </h6>
             <div className="w-full text-center">
-              <Button
+              {/* Commented out Button */}
+              {/* <Button
                 variant="contained"
                 sx={{
                   fontSize: "15px",
                   fontWeight: "bold",
                   color: "white",
-                  backgroundColor: "#eb4824",
+                  backgroundColor: "#009e4f",
                   borderRadius: "999px",
                   "&:hover": {
                     backgroundColor: "white",
-                    color: "#eb4824",
-                    border: "2px solid #eb4824",
+                    color: "#009e4f",
+                    border: "2px solid #009e4f",
                   },
                   px: 6,
                   py: 3,
                 }}
               >
                 Plan Details
-              </Button>
+              </Button> */}
+              <p className="text-[#000000] text-[13px] leading-[19.5px]">
+                Para obtener detalles del plan
+              </p>
             </div>
           </div>
 
@@ -96,25 +100,29 @@ const CarePlansSection: React.FC = () => {
               Transparent costs with no surprises
             </h6>
             <div className="w-full text-center">
-              <Button
+               {/* Commented out Button */}
+              {/* <Button
                 variant="contained"
                 sx={{
                   fontSize: "15px",
                   fontWeight: "bold",
                   color: "white",
-                  backgroundColor: "#42a3cb",
+                  backgroundColor: "#009e4f",
                   borderRadius: "999px",
                   "&:hover": {
                     backgroundColor: "white",
-                    color: "#42a3cb",
-                    border: "2px solid #42a3cb",
+                    color: "#009e4f",
+                    border: "2px solid #009e4f",
                   },
                   px: 6,
                   py: 3,
                 }}
               >
                 Plan Details
-              </Button>
+              </Button> */}
+              <p className="text-[#000000] text-[13px] leading-[19.5px]">
+                Para obtener detalles del plan
+              </p>
             </div>
           </div>
 
@@ -155,25 +163,29 @@ const CarePlansSection: React.FC = () => {
             Allows tax-free contributions into an HSA
                         </h6>
             <div className="w-full text-center">
-              <Button
+               {/* Commented out Button */}
+              {/* <Button
                 variant="contained"
                 sx={{
                   fontSize: "15px",
                   fontWeight: "bold",
                   color: "white",
-                  backgroundColor: "#001648",
+                  backgroundColor: "#009e4f",
                   borderRadius: "999px",
                   "&:hover": {
                     backgroundColor: "white",
-                    color: "#001648",
-                    border: "2px solid #3fa637",
+                    color: "#009e4f",
+                    border: "2px solid #009e4f",
                   },
                   px: 6,
                   py: 3,
                 }}
               >
                 Plan Details
-              </Button>
+              </Button> */}
+              <p className="text-[#000000] text-[13px] leading-[19.5px]">
+                Para obtener detalles del plan
+              </p>
             </div>
           </div>
 

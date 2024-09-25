@@ -18,6 +18,9 @@
   color: var(--foreground);
   background: var(--background);
 } */
+html, body {
+  overflow-x: hidden;
+}
 
 @layer utilities {
   .text-balance {
