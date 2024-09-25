@@ -4,8 +4,8 @@ const EmployerHero = () => {
   return (
     <>
       <div
-        className="relative w-full h-full bg-cover bg-center transition-all"
-        style={{ backgroundImage: 'url("https://www.texicare.com/wp-content/uploads/2024/02/Warehouse-Birds-Eye-View.jpg")' }}
+        className="relative w-full h-full bg-cover bg-center transition-all -mt-4"
+        style={{ backgroundImage: 'url("https://www.texicare.com/wp-content/uploads/2024/02/Warehouse-Birds-Eye-View.jpg") ' }}
       >
         <div className="container mx-auto lg:px-28 md:px-20 py-32 md:py-10 m-4">
           {/* Desktop View */}

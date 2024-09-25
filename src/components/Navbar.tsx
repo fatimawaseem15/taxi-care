@@ -23,13 +23,15 @@ const Navbar = () => {
 
     return (
         <>
-          {/* Topbar */}
-          <div id="topbar" className="topbar flex justify-between items-center p-4 bg-orange-600">
-               <p className="text-white text-xs  md:text-sm lg:text-base">Visit Texicare in English</p>
-               <button className="text-white rounded-2xl bg-transparent border border-white py-2 px-8  text-xs md:text-sm lg:text-base">
-                   Visit Now
-               </button>
-           </div>
+    {/* Topbar */}
+<div id="topbar" className="topbar flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 p-2 md:p-4 bg-orange-600">
+    <p className="text-white text-xs md:text-sm lg:text-base text-center">Visit Texicare in English</p>
+    <button className="text-white rounded-2xl bg-transparent border border-white py-1 px-4 md:py-2 md:px-8 text-xs md:text-sm lg:text-base">
+        Visit Now
+    </button>
+</div>
+
+
         <header className="bg-white shadow-md">
             <div className=" px-6 flex md:justify-between justify-center lg:flex-row flex-col items-center">
                 {/* Logo */}
