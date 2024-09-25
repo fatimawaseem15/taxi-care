@@ -23,7 +23,7 @@ const CarePlansSection: React.FC = () => {
                             height={192}
                             quality={100}
                         />
-                        <h6 className="my-4 px-10 text-[#eb4824] w-2/3 text-center md:text-left text-[22px] leading-[22px] font-bold">
+                        <h6 className="my-4 px-10 text-[#eb4824] w-2/3 text-center md:text-center text-[22px] leading-[22px] font-bold">
                             Affordable coverage for basic care
                         </h6>
                         <div className="w-full text-center">
@@ -67,7 +67,7 @@ const CarePlansSection: React.FC = () => {
             </div>
 
             {/* 2nd block */}
-            <div className="relative w-full py-12 md:py-24 space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-0">
+            <div className="relative w-full p-6 py-12 md:py-24 space-y-6 bg-[#001748] bg-opacity-5 rounded-lg md:flex-row md:space-y-0">
             <div className="absolute md:block hidden inset-0 bg-no-repeat bg-right bg-contain"
                      style={{ backgroundImage: `url('https://texicare.com/wp-content/uploads/2024/02/PLANS-10-Starburst_Starburst-Black.png')`, backgroundSize: '12rem auto' }}>
                 </div>
@@ -80,7 +80,7 @@ const CarePlansSection: React.FC = () => {
                             alt="Thrive Care logo"
                             className="mx-auto md:mx-0 rounded-full w-48"
                         />
-                        <h6 className="my-4 text-[#43a2ca] w-2/3 text-center md:text-left text-[22px] leading-[22px] font-bold">
+                        <h6 className="my-4 text-[#43a2ca] w-2/3 text-center md:text-center text-[22px] leading-[22px] font-bold">
                             Transparent costs with no surprises
                         </h6>
                         <div className="w-full text-center">
@@ -125,7 +125,7 @@ const CarePlansSection: React.FC = () => {
                             alt="Savings Care logo"
                             className="mx-auto md:mx-0 rounded-full w-48"
                         />
-                        <h6 className="my-4 text-[#001648] w-2/3 text-center md:text-left text-[22px] leading-[22px] font-bold">
+                        <h6 className="my-4 text-[#001648] w-2/3 text-center md:text-center text-[22px] leading-[22px] font-bold">
                             Allows tax-free contributions into an HSA
                         </h6>
                         <div className="w-full text-center">
